@@ -13,7 +13,7 @@ copiedText = pyperclip.paste()
 #Extracting emails from the text and storing in EmailExtract
 EmailExtract = EmailDump.findall(copiedText)
 
-#Storing and indenting emails in Emails
+#Storing and indenting emails in Emails 
 Emails= '\n'.join(EmailExtract)
 
 #Creating(or overwriting) a emails.txt file to store all emails
